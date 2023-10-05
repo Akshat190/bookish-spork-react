@@ -1,0 +1,176 @@
+.header{
+    position: absolute;
+    width: 100%;
+    transition: border-radius 0.2s , width 350ms ease;
+}
+
+.header.navbar_fixed{
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 2px 0 rgba(1, 6, 33, 0.06);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.header.header.navbar_fixed .navbar{
+    margin-top: 0px;
+}
+
+.header .navbar{
+    border: 0px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 0.3s;
+    transition: all 0.4 ease;
+}
+
+.header .navbar .navbar_brand{
+    padding: 0px;
+}
+
+.header .navbar .navbar-nav li a{
+    color: #2f4858;
+}
+
+.header .navbar .navbar-nav li a:hover,
+.header .navbar .navbar-nav li a.active{
+    color: #c27b7f;
+    background: none;
+}
+
+.header .navbar .navbar-nav li a:hover:after,
+.header .navbar .navbar-nav li a.after::after{
+    opacity: 1;
+    bottom: 0;
+}
+.header .navbar-expand-lg{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:  0.4s;
+}
+
+.header .navbar-toggler{
+    position: relative;
+    width: 30px;
+    height: 20px;
+    border-radius: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.header .navbar-toggler span{
+    display: block;
+    position: relative;
+    height: 1px;
+    width: 50%;
+    background: #2f4858;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out; 
+}
+
+.header .navbar-toggler span:nth-child(odd){
+    left: 50%;
+    border-radius: 9px 0  9px 0;
+}
+
+
+.header .navbar-toggler span:nth-child(1),
+.header .navbar-toggler span:nth-child(6){
+    transform: rotate(45deg);
+}
+
+.header .navbar-toggler span:nth-child(2),
+.header .navbar-toggler span:nth-child(5){
+    transform: rotate(-45deg);
+    
+}
+
+.header .navbar-toggler span:nth-child(1)
+{
+    left: 0px;
+    top: 4px;
+}
+.header .navbar-toggler span:nth-child(2){
+    left: calc(50% - 4px);
+    top: 4px;
+}
+.header .navbar-toggler span:nth-child(3){
+    left: -50%;
+    opacity: 0;
+}
+
+.header .navbar-toggler span:nth-child(4){
+    left: 86%;
+    opacity: 0;
+}
+
+.header .navbar-toggler span:nth-child(5){
+    left: 0;
+    top: 14px;
+}
+
+header .navbar-toggler span:nth-child(6){
+    left: calc(50% - 4px);
+    top: 14px;
+}
+
+.header .navbar-toggler.collapsed span:nth-child(1),
+.header .navbar-toggler.collapsed span:nth-child(2){
+    left: 86%;
+    opacity: 0;
+}
+.header .navbar-toggler.collapsed span:nth-child(1),
+.header .navbar-toggler.collapsed span:nth-child(2){
+    left: 86%;
+    opacity: 0;
+}
+
+.menu>.nav-item{
+    position: relative;
+    transition: all 0.2 linear;
+    border-bottom: 1px solid transparent;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width :1199px){
+    .menu>.nav-item{
+        margin-left: 0;
+    }
+}
+
+.menu>.nav-item a{
+    padding-top: 8px ;
+    padding-bottom: 8px;
+    display: block;
+    cursor: pointer;
+}
+
+.menu>.nav-item a::after{
+    transition: all 0.4s cubic-bezier(0.3,0.1,0.58,1);
+    opacity: 0;
+    content: "";
+    width: 100%;
+    width: 15px;
+    transform: translate(-50% , 0);
+    height: 2px;
+    background: #c27b7f;
+    position: absolute;
+    bottom: -20px;
+}
+
+.menu>.nav-item:hover .nav-link{
+    color: #c27b7f;
+}

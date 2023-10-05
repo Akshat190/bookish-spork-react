@@ -1,0 +1,86 @@
+.contact-form-box{
+    padding: 40px;
+    background-color: #f5ebe6;
+}
+
+@media only screen and (max-width :991px){
+    .contact-form-box{
+        padding: 20px;
+    }
+}
+
+.contact-form-box form{
+    text-align: center;
+}
+
+.contact-form-box input,
+.contact-form-box textarea{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-bottom:15px ;
+    background-color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.contact-form-box input:focus,
+.contact-form-box textarea:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #c27b7f;
+}
+
+.contact-form-box textarea{
+    min-height: 120px;
+    transition: all 0.3 ease-in-out;
+}
+
+.contact__address{
+    height: 100%;
+    background-color: #f5ebe6;
+}
+
+.contact__address iframe{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.contact__address__content{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact__address__content li{
+    margin-bottom: 30px;
+}
+
+.contact__address__content li a{
+    display: block;
+    color: #876585;
+}
+
+.contact__address__content li a:hover{
+    color: #c27b7f;
+}
+
+.contact__address__content li span{
+    font-weight: 700;
+    font-family: "philosopher",sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bg-one .contact-form-box{
+    background-color: white;
+}
+
+.bg-one .contact-form-box input,
+.bg-one .contact-form-box textarea{
+    background-color: #f5ebe6;
+}
+
+.bg-one .contact__address{
+    background-color: white;
+}

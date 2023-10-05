@@ -1,0 +1,23 @@
+{
+    "ctav3":{
+        "title1":"Do you Have question?",
+        "title2":"feel free to contact",
+        "number":"+91 122552 12547",
+        "btnText":"Send me a message"
+    },
+    "ctav4":{
+        "backgroundImage":"assets/images/ctav4.jpg",
+        "title":"watch a video",
+        "subtitle":"to see how our readers love it.",
+        "text":"still have any doubts ?? check our free chapters",
+        "btnText":"free chapter",
+        "videoURL":"https://www.youtube.com/watch?v=ksImBkJNQt8"
+    },
+    "ctav5":{
+        "backgroundImage":"assets/images/ctav5.jpg",
+        "title":"the book has 90900+ readers",
+        "text1":"Readers review",
+        "text2":"is self Explantory 5/5",
+        "icon":"assets/icons/star.svg"
+    }
+}

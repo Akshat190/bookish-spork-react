@@ -1,0 +1,35 @@
+{
+    "aboutv2":{
+        "title":"Learn about the book author",
+        "subtitle":"ABOUT AUTHOR",
+        "image":"assets/images/achive.png",
+        "videoURL":"https://www.youtube.com/watch?v=ksImBkJNQt8",
+        "description":"Based on Wikipedia",
+        "userinfo":[
+            {
+                "title":"Name",
+                "subtitle":"Jacob Thomas"
+            },
+            {
+                "title":"Born:",
+                "subtitle":"05 . 16 .1914"
+            },
+            {
+                "title":"Country :",
+                "subtitle":"Us"
+            },
+            {
+                "title":"Email",
+                "subtitle":"info@gmail.com"
+            },
+            {
+                "title":"Language",
+                "subtitle":"English , French"
+            },
+            {
+                "title":"Address",
+                "subtitle":"XYZ street ,New York"
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "chapterPreview":{
+        "title":"Chapter Preview",
+        "subtitle":"Read Some Books",
+        "chapters":[
+            {
+                "image":"/assets/images/chapter-preview/1.jpg",
+                "title":"The Beginning",
+                "text1":"lorem ipsum",
+                "text2":"lorem ipsum",
+                "text3":"lorem ipsum",
+                "text4":"lorem ipsum",
+                "text5":"lorem ipsum"
+            },
+            {
+                "image":"/assets/images/chapter-preview/2.jpg",
+                "title":"The Story",
+                "text1":"lorem ipsum",
+                "text2":"lorem ipsum",
+                "text3":"lorem ipsum",
+                "text4":"lorem ipsum",
+                "text5":"lorem ipsum"
+            },
+            {
+                "image":"/assets/images/chapter-preview/3.jpg",
+                "title":"The Beginning",
+                "text1":"lorem ipsum",
+                "text2":"lorem ipsum",
+                "text3":"lorem ipsum",
+                "text4":"lorem ipsum",
+                "text5":"lorem ipsum"
+            },
+            {
+                "image":"/assets/images/chapter-preview/4.jpg",
+                "title":"The Beginning",
+                "text1":"lorem ipsum",
+                "text2":"lorem ipsum",
+                "text3":"lorem ipsum",
+                "text4":"lorem ipsum",
+                "text5":"lorem ipsum"
+            },
+            {
+                "image":"/assets/images/chapter-preview/5.jpg",
+                "title":"The Beginning",
+                "text1":"lorem ipsum",
+                "text2":"lorem ipsum",
+                "text3":"lorem ipsum",
+                "text4":"lorem ipsum",
+                "text5":"lorem ipsum"
+            }
+        ]
+    },
+    "chapterPreviewv2":{
+        "title":"Chapter Preview",
+        "subtitle":"Read Some Books",
+        "chapters":[
+            {
+                "title":"chapter 1",
+                "image":"/assets/images/chapter-preview/6.jpg"
+            },
+            {
+                "title":"chapter 2",
+                "image":"/assets/images/chapter-preview/7.jpg"
+            },
+            {
+                "title":"chapter 3",
+                "image":"/assets/images/chapter-preview/8.jpg"
+            },
+            {
+                "title":"chapter 4",
+                "image":"/assets/images/chapter-preview/9.jpg"
+            },
+            {
+                "title":"chapter 5",
+                "image":"/assets/images/chapter-preview/10.jpg"
+            }
+        ]
+    }
+}

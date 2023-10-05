@@ -1,0 +1,45 @@
+{
+    "achievements":{
+        "title":"Achievments",
+        "subtitle":"Honor & Rewards",
+        "icons":"/assets/icons/award.svg",
+        "awards":[
+            {
+                "id":1,
+                "title":"Nominated",
+                "image":"/assets/images/awards/1.jpg",
+                "description":"International Thriller"
+            },
+            {
+                "id":2,
+                "title":"Nominated",
+                "image":"/assets/images/awards/2.jpg",
+                "description":"International Thriller"
+            },
+            {
+                "id":3,
+                "title":"Nominated",
+                "image":"/assets/images/awards/3.jpg",
+                "description":"International Thriller"
+            },
+            {
+                "id":4,
+                "title":"Nominated",
+                "image":"/assets/images/awards/4.jpg",
+                "description":"International Thriller"
+            },
+            {
+                "id":5,
+                "title":"Nominated",
+                "image":"/assets/images/awards/5.jpg",
+                "description":"International Thriller"
+            },
+            {
+                "id":6,
+                "title":"Nominated",
+                "image":"/assets/images/awards/5.jpg",
+                "description":"International Thriller"
+            }
+        ]
+    }
+}

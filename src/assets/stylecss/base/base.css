@@ -1,0 +1,245 @@
+@media (prefers-reduced-motion: no-preferences){
+    :root{
+        scroll-behavior: inherit;
+    }
+}
+
+.scroll{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    color: #fff;
+    background: #c27b7f;
+}
+
+a{
+    text-decoration: none;
+    color: #2f4858;
+    transition: 0.3s;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.section-wrapper{
+    overflow-x: hidden;
+}
+
+.bg-one{
+    background-color: #f5ebe6;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+#preloader{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    animation: preloader 1s 1s forwards;
+    background: #fff;
+}
+
+[class*='section-title-'] {
+    margin-bottom: 50px;
+}
+[class*='section-title-'] span{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #c27b7f;
+    font-weight: 600;
+    display: inline-block;
+}
+
+[class*='section-title-'] h2{
+    margin-top: 0px;
+}
+
+.section-title-center{
+    margin: 0 auto;
+}
+
+.section-divider{
+    margin-top: 20px;
+}
+
+.divider-triangle{
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c27b7f;
+    opacity: 0.4;
+    position: relative;
+    display: inline-block;
+}
+
+.divider-triangle::before{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: #c27b7f;
+    top: -9px;
+    opacity: 0.4;
+    right: 50%;
+    transform: rotate(45deg);
+}
+
+.divider-triangle::after{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: #c27b7f;
+    top: -9px;
+    opacity: 0.4;
+    left: 45%;
+    transform: rotate(45deg);
+}
+
+.translateEffect2{
+    transition: all 0.3s;
+}
+
+.translateEffect2:hover {
+    transform: translateY(-5px);
+}
+
+.link{
+    font-weight: 600;
+    position: relative;
+    color: #c27b7f;
+    transition: all 0.4 ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.link svg{
+    position: relative;
+    margin-left: 4px;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.link:hover{
+    color: #c27b7f;
+}
+
+.link:hover svg{
+    margin-left: 6px;
+}
+
+.social-icon{
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon li{
+    list-style: none;
+}
+
+.social-icon li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #c27b7f;
+    color: #fff;
+    transition: all 0.5s;
+    box-shadow: 3px 3px #876585;
+}
+
+.social-icon li a:hover{
+    background-color: #c27b7f;
+    box-shadow: none;
+}
+
+@media screen and (max-width :320px){
+    .social-icon li a{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.social-icon li a svg{
+    font-size: 20px;
+}
+
+@media screen and (max-width :320px){
+    .social-icon li a svg{
+        font-size: 15px;
+    }
+}
+
+.video-btn{
+    border: none;
+    height: 70px;
+    width: 70px;
+    line-height: 80px;
+    text-align: center;
+    color: #876585;
+    background-color: #fff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 99;
+    padding-left: 5px;
+    box-shadow: 0 0 30px rgba(1 ,6,33,0.06);
+}
+
+.video-btn:hover{
+    color: #c27b7f;
+}
+
+.waves-block{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    opacity: 0;
+    border-radius: 100%;
+    animation: waves 4s ease-in-out infinite;
+    left: 50%;
+    top: 50%;
+    margin-left: -65px;
+    margin-top: -65px;
+    z-index: 3;
+}
+
+.waves-block .wave1{
+    animation-delay: 0s;
+}
+
+.waves-block .wave2{
+    animation-delay: 1s;
+}
+.waves-block .wave3{
+    animation-delay: 2s;
+}
+
+.translateEffect2{
+    transition: all 0.3s;
+}
+
+.translateEffect2:hover{
+    transform: translateY(-10px);
+}

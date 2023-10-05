@@ -1,0 +1,34 @@
+.achievement__content{
+    box-shadow: 5px 5px #876585;
+    background-color: #f5ebe6;
+}
+
+.achievement .card{
+    box-shadow: 2px 0px 15px 5px rgba(1 , 6,33,0.06);
+    border: none;
+}
+
+.achievement .card:hover{
+    box-shadow: 4px 0px 15px 5px rgba(1 , 6,33,0.06);
+}
+
+.achievement__content{
+    position: relative;
+    overflow: hidden;
+    padding: 30px 10px;
+}
+
+.achievement__content__icon{
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    right: 0;
+}
+
+.achievement__content h3{
+    margin-bottom: 20px;
+}
+
+.bg-one .achievement__item{
+    background-color: #fff;
+}

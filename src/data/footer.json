@@ -1,0 +1,40 @@
+{
+    "footer":{
+        "name":"sana darling ❤",
+        "icon":"assets/icons/heart.svg",
+        "menu":[
+            {
+                "link":"hero",
+                "title":"Home"
+            },
+            {
+                "link":"benefits",
+                "title":"Benefits"
+            },
+            {
+                "link":"chapters",
+                "title":"Chapters"
+            },
+            {
+                "link":"achievements",
+                "title":"Achievements"
+            },
+            {
+                "link":"author",
+                "title":"Author"
+            },
+            {
+                "link":"reviews",
+                "title":"Reviews"
+            },
+            {
+                "link":"contact",
+                "title":"Contact"
+            },
+            {
+            "link":"signin",
+            "title":"SignIn"
+        }
+        ]
+    }
+}

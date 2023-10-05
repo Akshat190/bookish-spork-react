@@ -1,0 +1,33 @@
+{
+    "achieve":{
+        "subtitle":"why wonted",
+        "title":"what you'll achive",
+        "image":"assets/images/achive2.jpg",
+        "achieveItem":[
+            {
+                "id":1,
+                "icon":"assets/icons/ebook.svg",
+                "title":"Experience",
+                "description":"lorem ipsum"
+            },
+            {
+                "id":1,
+                "icon":"assets/icons/dice-multiple.svg",
+                "title":"Motivation",
+                "description":"lorem ipsum"
+            },
+            {
+                "id":1,
+                "icon":"assets/icons/goal.svg",
+                "title":"Goal",
+                "description":"lorem ipsum"
+            },
+            {
+                "id":1,
+                "icon":"assets/icons/brand-target.svg",
+                "title":"Vision",
+                "description":"lorem ipsum"
+            }
+        ]
+    }
+}
